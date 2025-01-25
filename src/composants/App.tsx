@@ -4,12 +4,7 @@ import Index from './Index';
 
 export default function App() {
 
-  const [image, setImage] = React.useState();
-	const [role, setRole] = React.useState(localStorage.getItem('role'));
-
-  //new Route for test page Home.js by thomas
-  return (
-
+return (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index/>}/>
